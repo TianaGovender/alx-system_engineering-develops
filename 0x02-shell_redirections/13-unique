@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /tmp/0x02|sort| uniq -c|grep -e '^\s.*1\s'|rev|cut -d'' -f1|rev 
+sort| uniq -c|grep -e '^\s.*1\s'|rev|cut -d'' -f1|rev 
