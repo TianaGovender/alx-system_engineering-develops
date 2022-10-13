@@ -3,8 +3,12 @@
 
 index=0
 
-while [ $index -lt 10 ]
+while [ $index -le 20 ]
 do
-  echo "Best School"
+  echo "$index"
+  case $index in
+	  "4") echo "bad luck from China";;
+	  "9") echo "bad luck from Japan";;
+	  "17") echo "";
   ((index++))
 done
