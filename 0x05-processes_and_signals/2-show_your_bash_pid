@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Displays a list of running programmes with bash keywords
+
+ps -aux | grep bash

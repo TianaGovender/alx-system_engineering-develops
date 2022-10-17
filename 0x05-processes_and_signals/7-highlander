@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Does Task 4 and displays text between
+
+while true
+do
+  echo "To infinity and beyond"
+  sleep 2
+  trap 'echo "I am invincible!!!"' SIGTERM
+done
