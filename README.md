@@ -1,2 +1,2 @@
-# alx-system_engineering-devops
-0x0 Shell basics
+#!/bin/bash
+Project on shell basics
