@@ -1,1 +1,1 @@
-Config management
+Configuration management
